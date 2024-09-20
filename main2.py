@@ -3,9 +3,9 @@ import functions_framework
 
 app = Flask(__name__)
 
-# Define the HTTP function for processing the rating email
+# Define the HTTP function for processing the rating email (updated name)
 @functions_framework.http
-def process_rating_email(request):
+def process_rating_email_lender(request):
     # Retrieve query parameters from the request
     request_args = request.args
 
